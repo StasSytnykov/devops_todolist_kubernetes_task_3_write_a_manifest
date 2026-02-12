@@ -58,7 +58,7 @@ class TodoViewSet(viewsets.ModelViewSet):
         serializer.save(creator=creator)
 
 class HealthCheckViewSet(viewsets.ViewSet):
-    qureryset = None
+    queryset = None
     serializer_class = None
     permission_classes = (permissions.AllowAny,)
 
